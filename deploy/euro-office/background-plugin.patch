@@ -1,0 +1,12 @@
+--- a/apps/common/main/lib/controller/Plugins.js
++++ b/apps/common/main/lib/controller/Plugins.js
+@@ -465,6 +465,9 @@
+                         isBackground = true;
+                     }
+                 });
++                // Background-only installations still need their menu control before registration.
++                if (me.backgroundPlugins.length > 0 && !isBackground)
++                    _group = me.addBackgroundPluginsButton(_group);
+                 _group.appendTo(me.$toolbarPanelPlugins);
+                 if (me.backgroundPlugins.length > 0) {
+                     me.viewPlugins.backgroundBtn.show();

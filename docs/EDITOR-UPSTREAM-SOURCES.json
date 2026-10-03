@@ -1,0 +1,351 @@
+{
+  "schemaVersion": 1,
+  "releaseTag": "editor-source-2026-10-03.1",
+  "repository": "vova999/soanvanban-editor",
+  "archivePolicy": "Text source/build files and notices only; no font/compiled/nontext/packed payloads or credential-pattern fixtures. Original pinned upstream links remain available for separate licensed acquisition.",
+  "archives": [
+    {
+      "repository": "Euro-Office/dictionaries",
+      "commit": "08d46f8631b82af00f83b28657c54ed1aaf9e3fc",
+      "file": "dictionaries-text-source.tar.gz",
+      "bytes": 57500988,
+      "sha256": "d5097765dfa9a7b911d2d8c8bc3b5d84d98eda6d2feebf9a9bfcd97567b33c4e",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/dictionaries-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/dictionaries/tar.gz/08d46f8631b82af00f83b28657c54ed1aaf9e3fc",
+      "originalSHA256": "f78a0b508b8ee17d50656b8a2c1bbb9683ca472023f54f59dcdb0a4099bb6ea0",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/dictionaries-exclusions.json",
+      "keptFiles": 318,
+      "excludedFiles": 1
+    },
+    {
+      "repository": "Euro-Office/sdkjs",
+      "commit": "d8a3d2477490c5cc1f6e043b2bc5ea21fed6ab52",
+      "file": "sdkjs-text-source.tar.gz",
+      "bytes": 25966745,
+      "sha256": "a345d331380faeb1e5c9fe77d47e623639bad90dd6e09f18ef1bc4cc055b207b",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/sdkjs-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/sdkjs/tar.gz/d8a3d2477490c5cc1f6e043b2bc5ea21fed6ab52",
+      "originalSHA256": "cf2eaf6affaebd6956a4c90dc6167fa32fa32085d6f267d8b8c7fe4341b07161",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/sdkjs-exclusions.json",
+      "keptFiles": 960,
+      "excludedFiles": 360
+    },
+    {
+      "repository": "Euro-Office/sdkjs-forms",
+      "commit": "e7859d1d421f14848a3114d7a22e55608d9c98f7",
+      "file": "sdkjs-forms-text-source.tar.gz",
+      "bytes": 48392,
+      "sha256": "aa36559a0c9354be019b451846023a5d158712ddb73ee8541406831abc05e79b",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/sdkjs-forms-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/sdkjs-forms/tar.gz/e7859d1d421f14848a3114d7a22e55608d9c98f7",
+      "originalSHA256": "798a97a35e3231e2ac60f58a41192e57cf6d9b2e6855c6523213155172edc0f8",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/sdkjs-forms-exclusions.json",
+      "keptFiles": 24,
+      "excludedFiles": 0
+    },
+    {
+      "repository": "Euro-Office/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e",
+      "file": "document-formats-text-source.tar.gz",
+      "bytes": 7833,
+      "sha256": "07f884c514d156f707388ae07fb12b9732bd1047d1d6e6d288ca98e9fc559711",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-formats-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/document-formats/tar.gz/46995828084d4460112efec579499809f418ca6e",
+      "originalSHA256": "b350caab7443e7cbb5ac2ecd754f7f8ae6ebb320ed7155b5d327b86373ae48a5",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-formats-exclusions.json",
+      "keptFiles": 6,
+      "excludedFiles": 0
+    },
+    {
+      "repository": "Euro-Office/server",
+      "commit": "abfa2946fcc7b6f31df497f73d7e48ca6dbef16b",
+      "file": "server-text-source.tar.gz",
+      "bytes": 1587583,
+      "sha256": "6b0a380cd5caac77873b20ff9d9d8ddfec0a2d5e5885d4c8b1d1fdc94575b55e",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/server-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/server/tar.gz/abfa2946fcc7b6f31df497f73d7e48ca6dbef16b",
+      "originalSHA256": "ea876f4d3a864ef623097bc21acd7d8585e807eb2a37136445a2c45e62af23a2",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/server-exclusions.json",
+      "keptFiles": 407,
+      "excludedFiles": 481
+    },
+    {
+      "repository": "Euro-Office/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace",
+      "file": "document-templates-text-source.tar.gz",
+      "bytes": 4936,
+      "sha256": "f287d71f5ea59c0995adc4fbc99867ebeb59c4655c49188cc2fbd74a880cbf51",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-templates-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/document-templates/tar.gz/d697ab3d75dbec104e4a99f47852398752cb2ace",
+      "originalSHA256": "b2b8a3e642752af27eff3a5024fbc7eee672c0650b5dbfa49bfdc9eb45a9e47d",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-templates-exclusions.json",
+      "keptFiles": 3,
+      "excludedFiles": 184
+    },
+    {
+      "repository": "Euro-Office/core",
+      "commit": "a5ac960ab90590c8e0978bbb6e6e27548c618281",
+      "file": "core-text-source.tar.gz",
+      "bytes": 75020418,
+      "sha256": "59f364f8d88bde1f050c9c29d3fa9a6a29ad611e4e51e3a8febce7e24a23f00c",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/core-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/core/tar.gz/a5ac960ab90590c8e0978bbb6e6e27548c618281",
+      "originalSHA256": "219c194bc31c807bd6a185afab8210eb93edd494eccb2cdd437c94972c5dfdcf",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/core-exclusions.json",
+      "keptFiles": 23776,
+      "excludedFiles": 1895
+    },
+    {
+      "repository": "Euro-Office/document-server-integration",
+      "commit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "file": "document-server-integration-text-source.tar.gz",
+      "bytes": 2070898,
+      "sha256": "3f0d85d369ae3f5c407262712407443b4035a39f44635beeca823982606c5ab4",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-server-integration-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/document-server-integration/tar.gz/583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "originalSHA256": "e1c420f7c2295f4cfc774ddf170077b5caa854ef6252121b175dc786522f5e7b",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-server-integration-exclusions.json",
+      "keptFiles": 1098,
+      "excludedFiles": 119
+    },
+    {
+      "repository": "Euro-Office/core-fonts",
+      "commit": "2de90688e07e2442a5fffc434fdf0a3d212c1f42",
+      "file": "core-fonts-text-source.tar.gz",
+      "bytes": 24363,
+      "sha256": "19f52cbdd42e7093f0a3991a5a86db49f8c72bec3b83fe84406037657e623b33",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/core-fonts-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/core-fonts/tar.gz/2de90688e07e2442a5fffc434fdf0a3d212c1f42",
+      "originalSHA256": "a0382296a4304b62e1a3e8c5b6ceeec3047ba7fb6c78b1912213523cbe03294b",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/core-fonts-exclusions.json",
+      "keptFiles": 31,
+      "excludedFiles": 189
+    },
+    {
+      "repository": "Euro-Office/plugin-aiautofill",
+      "commit": "ea67d52df5d8c51cb7a9546fe215364118a226d0",
+      "file": "plugin-aiautofill-text-source.tar.gz",
+      "bytes": 203339,
+      "sha256": "946dd90b7588be6c51496b2e8153e6cb3df080304fcb116031ff1bfe693b13ba",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/plugin-aiautofill-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/plugin-aiautofill/tar.gz/ea67d52df5d8c51cb7a9546fe215364118a226d0",
+      "originalSHA256": "08c661db3c89f01eac1c6c0ed28c697a5ea8df146ae98a8652470cfca62eec30",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/plugin-aiautofill-exclusions.json",
+      "keptFiles": 60,
+      "excludedFiles": 10
+    },
+    {
+      "repository": "DomGries/InnoDependencyInstaller",
+      "commit": "1bad4b4da07256c8a77c30787b59bc4a81f252a4",
+      "file": "InnoDependencyInstaller-text-source.tar.gz",
+      "bytes": 12989,
+      "sha256": "337766bc14b0aaae2db7d1eadab9b96001d228cf5163e002760a91362117d65d",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/InnoDependencyInstaller-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/DomGries/InnoDependencyInstaller/tar.gz/1bad4b4da07256c8a77c30787b59bc4a81f252a4",
+      "originalSHA256": "f35937964058066680278373bf90b47e924855b65aa729f6b82d93c67962274e",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/InnoDependencyInstaller-exclusions.json",
+      "keptFiles": 5,
+      "excludedFiles": 4
+    },
+    {
+      "repository": "Euro-Office/web-apps",
+      "commit": "b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6",
+      "file": "web-apps-text-source.tar.gz",
+      "bytes": 35381052,
+      "sha256": "24f0edc30d6c442e22ada7d354a603fea82b2fc206c5fe0533c5a23f887de70e",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/web-apps-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/web-apps/tar.gz/b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6",
+      "originalSHA256": "47e7bf55dc88ec208832fbe2e0f9f0b7182e09bae54f310a826f4b9c88a755f1",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/web-apps-exclusions.json",
+      "keptFiles": 11793,
+      "excludedFiles": 10932
+    },
+    {
+      "repository": "Euro-Office/DocumentServer",
+      "commit": "4ba0c0f202ae484eb202f24c59ddf5f4a7004161",
+      "file": "DocumentServer-text-source.tar.gz",
+      "bytes": 84259,
+      "sha256": "2ece5d24537b142add8f322ae0c2134dc2ac1848a3c61dd39c5f8e08adf482a2",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/DocumentServer-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/DocumentServer/tar.gz/4ba0c0f202ae484eb202f24c59ddf5f4a7004161",
+      "originalSHA256": "0fa5e603edc28de22728364f755a4e98d9e6ffa97d97867b2e76eb9d05e05455",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/DocumentServer-exclusions.json",
+      "keptFiles": 70,
+      "excludedFiles": 0
+    },
+    {
+      "repository": "SoanVanBan customized Euro-Office web-apps",
+      "commit": "b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6",
+      "file": "live7-modified-web-apps-text-source.tar.gz",
+      "bytes": 35094597,
+      "sha256": "f0217a0db73b508cab2c29dc5104db4abc36c926cba528fe1ed5d4de8ef9e4bb",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/live7-modified-web-apps-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": null,
+      "originalSHA256": "8446e6be9677f230c4859338dea190573c0075158a4cfa40c896b47ecdc91d25",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/live7-modified-web-apps-exclusions.json",
+      "keptFiles": 11826,
+      "excludedFiles": 10932
+    },
+    {
+      "repository": "Euro-Office/document-server-package",
+      "commit": "84907ab05ebcc5132aab93001b6957eae9b56c9e",
+      "file": "document-server-package-text-source.tar.gz",
+      "bytes": 109823,
+      "sha256": "653e4ba867689dfd3f93ee017874f60a4a192b84269466b8e48c8a3caabde9be",
+      "url": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-server-package-text-source.tar.gz",
+      "sourceScope": "Filtered text source and original notices; exclusions are documented.",
+      "originalUpstreamURL": "https://codeload.github.com/Euro-Office/document-server-package/tar.gz/84907ab05ebcc5132aab93001b6957eae9b56c9e",
+      "originalSHA256": "64ef4eb7ab3275953fb15f1a28a8b615d1cd47ffd7aa0537068a9d56eadca734",
+      "exclusionReport": "https://github.com/vova999/soanvanban-editor/releases/download/editor-source-2026-10-03.1/document-server-package-exclusions.json",
+      "keptFiles": 101,
+      "excludedFiles": 4
+    }
+  ],
+  "nestedModules": [
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/csharp-mvc/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/csharp-mvc/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/csharp/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/csharp/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/go/static/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/go/static/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/java-spring/src/main/resources/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/java/src/main/resources/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/java/src/main/resources/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/nodejs/public/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/nodejs/public/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/nodejs/public/assets/plugin-aiautofill",
+      "commit": "ea67d52df5d8c51cb7a9546fe215364118a226d0"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/php-laravel/public/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/php/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/php/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/python/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/python/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/ruby/assets/document-formats",
+      "commit": "46995828084d4460112efec579499809f418ca6e"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-integration",
+      "parentCommit": "583fbf49d23e54fbb1feda69517bd7de4b5d094b",
+      "path": "web/documentserver-example/ruby/assets/document-templates",
+      "commit": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+    },
+    {
+      "parentRepository": "Euro-Office/document-server-package",
+      "parentCommit": "84907ab05ebcc5132aab93001b6957eae9b56c9e",
+      "path": "exe/InnoDependencyInstaller",
+      "commit": "1bad4b4da07256c8a77c30787b59bc4a81f252a4"
+    }
+  ],
+  "sdkClient": {
+    "repository": "ONLYOFFICE/onlyoffice.github.io",
+    "commit": "c2d42ebc6ef4b454246a6c87e21630bc33440ae9",
+    "preferredSource": "sdkjs-plugins/v1/plugins.dev.js",
+    "distributionSHA256": "1bc0bd71eebcb477ceaaee3ab00ed1a10ce7eae117ec68ae8024645c435f524e",
+    "rebuildCompiler": "google-closure-compiler-js@20200719.0.0",
+    "exactVendorMinificationRecipeKnown": false
+  },
+  "completeCorrespondingSource": false,
+  "byteIdenticalImageRebuildVerified": false,
+  "deploymentAuthorized": false
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "status": "AUTHORIZED_PUBLIC_TEXT_SOURCE_PUBLICATION",
+  "localFiles": [
+    "components/editor-plugin/.dockerignore",
+    "components/editor-plugin/Dockerfile",
+    "components/editor-plugin/LICENSE",
+    "components/editor-plugin/PROVENANCE.json",
+    "components/editor-plugin/README.md",
+    "components/editor-plugin/assets/bridge.js",
+    "components/editor-plugin/assets/config.json",
+    "components/editor-plugin/assets/index.html",
+    "components/editor-plugin/assets/sdk.js",
+    "components/editor-plugin/package.json",
+    "components/editor-plugin/preferred-sdk/LICENSE",
+    "components/editor-plugin/preferred-sdk/README.md",
+    "components/editor-plugin/preferred-sdk/build.mjs",
+    "components/editor-plugin/preferred-sdk/package-lock.json",
+    "components/editor-plugin/preferred-sdk/package.json",
+    "components/editor-plugin/preferred-sdk/plugins.dev.js",
+    "components/editor-plugin/server.js",
+    "components/editor-plugin/test/server.test.js",
+    "components/vietnamese-mappings/LICENSE",
+    "components/vietnamese-mappings/NOTICE.md",
+    "components/vietnamese-mappings/README.md",
+    "components/vietnamese-mappings/tables.json",
+    "components/vietnamese-mappings/upstream-data.cpp",
+    "deploy/euro-office/.dockerignore",
+    "deploy/euro-office/ATTRIBUTION",
+    "deploy/euro-office/Dockerfile",
+    "deploy/euro-office/LICENSE",
+    "deploy/euro-office/README.md",
+    "deploy/euro-office/background-plugin.patch",
+    "deploy/euro-office/build-theme.mjs",
+    "deploy/euro-office/mobile-package-lock.json",
+    "deploy/euro-office/prepare-copy.mjs",
+    "deploy/euro-office/theme/soanvanban/README.md",
+    "deploy/euro-office/theme/soanvanban/assets/img/about/logo.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/embed/logo.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/dark-logo_s.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/eo_logo_dark.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/eo_logo_light.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/header-logo_s.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-document-white.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-document.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-drawing-white.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-drawing.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-pdf-white.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-pdf.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-presentation-white.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-presentation.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-spreadsheet-white.svg",
+    "deploy/euro-office/theme/soanvanban/assets/img/header/icon-spreadsheet.svg",
+    "deploy/euro-office/theme/soanvanban/assets/less/mobile-overrides.less",
+    "deploy/euro-office/theme/soanvanban/assets/less/overrides.less",
+    "deploy/euro-office/theme/soanvanban/assets/less/overrides/about.less",
+    "deploy/euro-office/theme/soanvanban/assets/less/overrides/header.less",
+    "deploy/euro-office/theme/soanvanban/assets/less/overrides/mobile-overrides.less",
+    "deploy/euro-office/theme/soanvanban/assets/less/theme.less",
+    "deploy/euro-office/theme/soanvanban/meta/config.json",
+    "deploy/euro-office/verify-background-only.mjs",
+    "deploy/euro-office/verify-locales.mjs",
+    "docs/CODE-SEPARATION.md",
+    "docs/EDITOR-FONT-INVENTORY.json",
+    "docs/EDITOR-INTERFACE.md",
+    "docs/EDITOR-SOURCE-PLAN.json",
+    "docs/EDITOR-UPSTREAM-SOURCES.json",
+    "docs/PUBLICATION-REVIEW.md",
+    "scripts/editor-source-fetch.py",
+    "scripts/editor-source-plan.mjs",
+    "scripts/filter-editor-archives.py"
+  ],
+  "upstreamRequired": [
+    {
+      "repository": "https://github.com/Euro-Office/DocumentServer",
+      "revision": "v9.3.4-hotfix.1",
+      "include": "Release tree and exact pinned component sources, notices, dependency manifests/lockfiles, build/install scripts; record immutable component commits."
+    },
+    {
+      "repository": "https://github.com/Euro-Office/web-apps",
+      "revision": "b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6",
+      "include": "Full preferred source including apps, vendor, translation, theme, build and dependency manifests/lockfiles. Apply background-plugin.patch and local theme/copy wrapper."
+    },
+    {
+      "repository": "https://github.com/ONLYOFFICE/onlyoffice.github.io",
+      "revision": "c2d42ebc6ef4b454246a6c87e21630bc33440ae9",
+      "include": "Exact client preferred source sdkjs-plugins/v1/plugins.dev.js supplied locally, original LICENSE/header, pinned compiler build wrapper/lock. Native injected APIs are in pinned sdkjs source archive."
+    },
+    {
+      "repository": "https://github.com/fcitx/fcitx5-unikey",
+      "revision": "ed9170c35c1a6275d105e03d7f9bc4f674c1469c",
+      "include": "Original unikey/data.cpp preferred table source and GPL notice at the exact recorded commit."
+    }
+  ],
+  "excluded": [
+    "Private application server/web source (subject to ownership and combined-work review, existing source offers unchanged)",
+    "All .env and secrets, cookies, tokens, credentials",
+    "User documents, SQLite files, AI ledgers, data volumes, backups",
+    "Git internals, node_modules, build outputs, font binaries and previous source archives"
+  ],
+  "blockers": [
+    "Ownership authority for future application/plugin license choices and same-window DocsAPI/bridge plus in-process UniKey combined-work scope need a specific owner/counsel decision; existing licenses stay unchanged.",
+    "Font binary redistribution: confirm Microsoft core-font acquisition/EULA and missing ASCW3/Likhan/mry_KacstQurn/Khmer notices before including binaries; source-only proposed repository excludes all font binaries.",
+    "Native branding image 8 has not been built/qualified; live-7 source-repair evidence and future-8 overlay are explicitly separate."
+  ],
+  "technicalLimitations": [
+    "The repository preparation remains source overlay plus exact upstream acquisition metadata; separate verified archives contain full component snapshots.",
+    "The preferred client SDK rebuild succeeds but is not byte-identical to the vendor distribution and is not qualified as a replacement."
+  ],
+  "publicationAuthorized": true,
+  "publicationDestination": "vova999/soanvanban-editor",
+  "archivePublicationPolicy": "Text source/build files and notices only; no font/compiled/nontext/packed payloads or credential-pattern fixtures. Original pinned upstream links remain available for separate licensed acquisition."
+}

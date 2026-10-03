@@ -1,0 +1,69 @@
+{
+  "verifiedOn": "2026-10-03",
+  "documentServer": {
+    "repository": "https://github.com/Euro-Office/DocumentServer",
+    "releaseTag": "v9.3.4-hotfix.1",
+    "tagObject": "4fc31e72ad08e9b89f935025d5d5ed802a21d510",
+    "treeSha": "4ba0c0f202ae484eb202f24c59ddf5f4a7004161",
+    "components": [
+      {
+        "path": "core",
+        "sha": "a5ac960ab90590c8e0978bbb6e6e27548c618281"
+      },
+      {
+        "path": "core-fonts",
+        "sha": "2de90688e07e2442a5fffc434fdf0a3d212c1f42"
+      },
+      {
+        "path": "dictionaries",
+        "sha": "08d46f8631b82af00f83b28657c54ed1aaf9e3fc"
+      },
+      {
+        "path": "document-formats",
+        "sha": "46995828084d4460112efec579499809f418ca6e"
+      },
+      {
+        "path": "document-server-integration",
+        "sha": "583fbf49d23e54fbb1feda69517bd7de4b5d094b"
+      },
+      {
+        "path": "document-server-package",
+        "sha": "84907ab05ebcc5132aab93001b6957eae9b56c9e"
+      },
+      {
+        "path": "document-templates",
+        "sha": "d697ab3d75dbec104e4a99f47852398752cb2ace"
+      },
+      {
+        "path": "sdkjs",
+        "sha": "d8a3d2477490c5cc1f6e043b2bc5ea21fed6ab52"
+      },
+      {
+        "path": "sdkjs-forms",
+        "sha": "e7859d1d421f14848a3114d7a22e55608d9c98f7"
+      },
+      {
+        "path": "server",
+        "sha": "abfa2946fcc7b6f31df497f73d7e48ca6dbef16b"
+      },
+      {
+        "path": "web-apps",
+        "sha": "b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6"
+      }
+    ],
+    "commit": "4ba0c0f202ae484eb202f24c59ddf5f4a7004161"
+  },
+  "copiedPluginSDK": {
+    "existingFile": "assets/sdk.js",
+    "sha256": "1bc0bd71eebcb477ceaaee3ab00ed1a10ce7eae117ec68ae8024645c435f524e",
+    "officialDistributionURL": "https://onlyoffice.github.io/sdkjs-plugins/v1/plugins.js",
+    "officialArtifactByteMatch": true,
+    "preferredSourceExactMatchVerified": true,
+    "candidatePreferredSource": "The previous native sdkjs/common/plugins candidate was not the client SDK; native sources supply editor-injected APIs.",
+    "notice": "Editable preferred source and matching distributed file identified in the same immutable official commit. A pinned local minifier rebuild succeeds, but exact vendor minification recipe is unrecorded.",
+    "preferredSourceRepository": "https://github.com/ONLYOFFICE/onlyoffice.github.io",
+    "preferredSourceCommit": "c2d42ebc6ef4b454246a6c87e21630bc33440ae9",
+    "preferredSourcePath": "sdkjs-plugins/v1/plugins.dev.js",
+    "byteIdenticalRebuildVerified": false
+  }
+}

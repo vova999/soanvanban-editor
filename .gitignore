@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env*
+*.tar.gz
+artifacts/
+source/
+built/
+preserved-fonts.tar
+__pycache__/
+*.pyc

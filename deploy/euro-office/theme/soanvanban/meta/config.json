@@ -1,0 +1,19 @@
+{
+  "company_name": "Soạn Văn Bản",
+  "publisher_name": "Soạn Văn Bản",
+  "publisher_url": "https://soanvanban.com/about.html",
+  "publisher_address": "",
+  "publisher_phone": "",
+  "sales_email": "",
+  "support_email": "",
+  "support_url": "https://soanvanban.com/about.html",
+  "help_url": "https://soanvanban.com/about.html",
+  "app_title": "Soạn Văn Bản",
+  "attribution": "Soạn Văn Bản integrates Euro-Office editing technology, based on ONLYOFFICE by Ascensio System SIA. Original copyright and AGPLv3 notices apply.",
+  "mobile_logo_light": "eo_logo_light.svg",
+  "mobile_logo_dark": "eo_logo_dark.svg",
+  "about_logo_light": "logo.svg",
+  "about_logo_dark": "logo.svg",
+  "forms_logo_light": "eo_logo_dark.svg",
+  "forms_logo_dark": "eo_logo_light.svg"
+}

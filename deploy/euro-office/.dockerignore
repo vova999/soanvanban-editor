@@ -1,0 +1,8 @@
+*
+!Dockerfile
+!built/
+!built/web-apps/
+!built/web-apps/**
+!LICENSE
+!ATTRIBUTION
+!preserved-fonts.tar

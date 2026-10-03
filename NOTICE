@@ -1,0 +1,7 @@
+Soạn Văn Bản editor/plugin source publication.
+
+Euro-Office editor sources are based on ONLYOFFICE by Ascensio System SIA. Original copyright, AGPL and applicable additional terms/notices are retained in source files and component LICENSE/ATTRIBUTION files. The copied client SDK keeps its original notice header unchanged; its editable upstream source is supplied separately.
+
+UniKey mapping source: Copyright 1998-2002 Pham Kim Long, GPL-2.0-or-later; see components/vietnamese-mappings/LICENSE and NOTICE.md.
+
+This publication does not grant rights to upstream trademarks, fonts or omitted binary/nontext assets. Component-specific and third-party licenses control their respective files. No license has been removed or replaced. The root LICENSE describes the existing project AGPL licensing; separately licensed vendored components retain their stated terms.

@@ -1,0 +1,374 @@
+{
+  "sourcePublicationAuthorized": true,
+  "deploymentAuthorized": false,
+  "privateApplicationHistoryIncluded": false,
+  "fontBinariesIncluded": false,
+  "completeCorrespondingSource": false,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 100,
+      "sha256": "f6ae7888452eae773b2fad7c90513ae935804c1d2e66ff2db5bc7b0effc0ff4d"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 869,
+      "sha256": "acb6090083169d791408f5375a94a505ea793e1aa07fcd9947fcd4e2fe3d0b97"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3949,
+      "sha256": "d351b9d09dc4dd87cb49334adf51c85cd809c8cd4ac7b0bb288c070e78df4bb5"
+    },
+    {
+      "path": "RELEASE-SOURCES.json",
+      "bytes": 20671,
+      "sha256": "50515d6930a41e824e03f1648babbeab468b35e55d98152e47705bbd932b3e86"
+    },
+    {
+      "path": "SHA256SUMS",
+      "bytes": 3056,
+      "sha256": "b208df20e46316a835ef51242808e8232a65cd14878609992188f87be052286e"
+    },
+    {
+      "path": "components/editor-plugin/.dockerignore",
+      "bytes": 68,
+      "sha256": "d940592ce6e99115c1da5ab9f0b54eaf59be251c667d9b3adab88ecc82a90157"
+    },
+    {
+      "path": "components/editor-plugin/Dockerfile",
+      "bytes": 218,
+      "sha256": "448c3bbfe70356e158623b170fa7f4a29de10231437e43495ed419c5e91323e9"
+    },
+    {
+      "path": "components/editor-plugin/LICENSE",
+      "bytes": 34523,
+      "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0"
+    },
+    {
+      "path": "components/editor-plugin/PROVENANCE.json",
+      "bytes": 2511,
+      "sha256": "30bbd80cc504c9e99036eb34677d905d244efca98a6e57fee3b305d00e7f5942"
+    },
+    {
+      "path": "components/editor-plugin/README.md",
+      "bytes": 1977,
+      "sha256": "463f5be8faabe511e4ea6e862530785d707930eac002dd32da59a8dc25710df5"
+    },
+    {
+      "path": "components/editor-plugin/assets/bridge.js",
+      "bytes": 3189,
+      "sha256": "e778c6650871b211e343204167187171be6ae7e6f5e2cac6d9405225987fa888"
+    },
+    {
+      "path": "components/editor-plugin/assets/config.json",
+      "bytes": 494,
+      "sha256": "681aa4904799aab50bc11c28a0694d6723c6e52281ec29ab575f2cdacce27309"
+    },
+    {
+      "path": "components/editor-plugin/assets/index.html",
+      "bytes": 212,
+      "sha256": "77925e84a4d0e3c134a2e840916359ab3f867e5a0eecacfde23db3666c86dc0a"
+    },
+    {
+      "path": "components/editor-plugin/assets/sdk.js",
+      "bytes": 15196,
+      "sha256": "1bc0bd71eebcb477ceaaee3ab00ed1a10ce7eae117ec68ae8024645c435f524e"
+    },
+    {
+      "path": "components/editor-plugin/package.json",
+      "bytes": 259,
+      "sha256": "1c5a3eb344e517ccefd066ae08d25a261ce6412165ba1c3992169d57d62c092c"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/LICENSE",
+      "bytes": 37800,
+      "sha256": "3a9b4b6ab698d668dcedcda1c2da598f4ca9789a0d8b4aefb90e00e2cb425040"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/README.md",
+      "bytes": 1327,
+      "sha256": "615a3bed14dad8591389dac9443ad7ecd026e25009906d4f7c1e833c8372e1a2"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/build.mjs",
+      "bytes": 1228,
+      "sha256": "b8a0fdb7f234ad57a517de2b4024079ff7e61b2e3e1daff8a551c5c18d079184"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/package-lock.json",
+      "bytes": 847,
+      "sha256": "cac64b5d2e9edbf623c9f3c359237897dceb0d21163fb43741546dd147a17ce6"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/package.json",
+      "bytes": 269,
+      "sha256": "9db47f3c5c2b2dbf6466e843ef85a15dc8cf1eb2559e9755630ffcf9d7a376e9"
+    },
+    {
+      "path": "components/editor-plugin/preferred-sdk/plugins.dev.js",
+      "bytes": 24397,
+      "sha256": "76f9d537f949db461c3ed7275f6fd23f21fe503da3a5337a538ce83d4390583f"
+    },
+    {
+      "path": "components/editor-plugin/server.js",
+      "bytes": 3092,
+      "sha256": "9038076982f475da6932bb00d6f922b3ec6dab00a9df17cc061893c627b24a98"
+    },
+    {
+      "path": "components/editor-plugin/test/server.test.js",
+      "bytes": 3581,
+      "sha256": "0ab57fe9aad8b6da460cd8646b63d6fb88ab7ace8e225b6ab889bef68bcbf2b3"
+    },
+    {
+      "path": "components/vietnamese-mappings/LICENSE",
+      "bytes": 17621,
+      "sha256": "43fd695e9b198a9a4997cc2d02e10d26cae937e2c4930b9eff9c6d349c85cd32"
+    },
+    {
+      "path": "components/vietnamese-mappings/NOTICE.md",
+      "bytes": 1032,
+      "sha256": "7577bf11ee61e93524979e80d420918bd810c6e48b4791eee8747d8763c3fcee"
+    },
+    {
+      "path": "components/vietnamese-mappings/README.md",
+      "bytes": 538,
+      "sha256": "66b4d71ca7fc4fd21c7efe1ad9b5cb60e6c02ad18a83082945517173e8af14d5"
+    },
+    {
+      "path": "components/vietnamese-mappings/tables.json",
+      "bytes": 5190,
+      "sha256": "97308a2283087d2ab802644b1b4c49c40a68c598e95369abc1c1721d8e2166f1"
+    },
+    {
+      "path": "components/vietnamese-mappings/upstream-data.cpp",
+      "bytes": 75717,
+      "sha256": "9338bae46be81a7a0def48e5ee030c5ab08aa05e573d78b7ac7a927c4fb9a54b"
+    },
+    {
+      "path": "deploy/euro-office/.dockerignore",
+      "bytes": 101,
+      "sha256": "a53af88ea4a66ed646a14edc20a71b3d2251bf66cde14f265a3a3a8aec18c6ba"
+    },
+    {
+      "path": "deploy/euro-office/ATTRIBUTION",
+      "bytes": 347,
+      "sha256": "671c080847bb7d6eb60b2f873482a124d9500c4e953843517c3f55c0b771c4b6"
+    },
+    {
+      "path": "deploy/euro-office/Dockerfile",
+      "bytes": 1179,
+      "sha256": "f6122635adeed4f6d18fcfda74e817aa98c7851c1a335ff5515400d6751c4ae9"
+    },
+    {
+      "path": "deploy/euro-office/LICENSE",
+      "bytes": 34520,
+      "sha256": "57c8ff33c9c0cfc3ef00e650a1cc910d7ee479a8bc509f6c9209a7c2a11399d6"
+    },
+    {
+      "path": "deploy/euro-office/README.md",
+      "bytes": 4076,
+      "sha256": "a4a763ea45c58592524d98956f4c11334942d81fbea22062141fa8e36e66952d"
+    },
+    {
+      "path": "deploy/euro-office/background-plugin.patch",
+      "bytes": 622,
+      "sha256": "be7e4d86c5d5416a6b04f102f22613a2e9898071c076b089a2a519e8182c8cbf"
+    },
+    {
+      "path": "deploy/euro-office/build-theme.mjs",
+      "bytes": 2232,
+      "sha256": "7d12c8f4560532176a64c4e11f4166685047e662b66852531f339485bab3fb4e"
+    },
+    {
+      "path": "deploy/euro-office/mobile-package-lock.json",
+      "bytes": 551424,
+      "sha256": "4bea4f3e7ad9f48993699f6c7eacb4373ff428d3892040ed635582e6be0db622"
+    },
+    {
+      "path": "deploy/euro-office/prepare-copy.mjs",
+      "bytes": 3326,
+      "sha256": "32b200eb85afc33bfe7d5cfc305335bdefdc89dfbf44eeb0fd0f5136680bab05"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/README.md",
+      "bytes": 521,
+      "sha256": "6329ae28b1fbb6ca4691a628e89e691922fcf65bb45f883858388277ee37c3c7"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/about/logo.svg",
+      "bytes": 9686,
+      "sha256": "0645c0a7984db235dbef5d927a59b4b9c6b74c60f2eeed738ac2a3d650901400"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/embed/logo.svg",
+      "bytes": 3684,
+      "sha256": "f201a9e9ff429bc9d8adf2205f3279c7b9ecf82fe3821c5897916017a9208a76"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/dark-logo_s.svg",
+      "bytes": 6294,
+      "sha256": "8978b62c09a6eba19becc25c3178887afc0fb07f4c2424b4ef48bb71cc1e4c8d"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/eo_logo_dark.svg",
+      "bytes": 6294,
+      "sha256": "8978b62c09a6eba19becc25c3178887afc0fb07f4c2424b4ef48bb71cc1e4c8d"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/eo_logo_light.svg",
+      "bytes": 6294,
+      "sha256": "8978b62c09a6eba19becc25c3178887afc0fb07f4c2424b4ef48bb71cc1e4c8d"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/header-logo_s.svg",
+      "bytes": 6294,
+      "sha256": "8978b62c09a6eba19becc25c3178887afc0fb07f4c2424b4ef48bb71cc1e4c8d"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-document-white.svg",
+      "bytes": 304,
+      "sha256": "f0f16e2cb871c71fbb0ed63de793751e138500549ed138e5d2cb257791f630d0"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-document.svg",
+      "bytes": 304,
+      "sha256": "5b091e7211cfd3d67a98c9149da623574e84adf1beb1d500d7ac9c4cc4a417e6"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-drawing-white.svg",
+      "bytes": 369,
+      "sha256": "0454d337779c2903ba79976a617ec43f31255368ef58479ba8319077e9763034"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-drawing.svg",
+      "bytes": 369,
+      "sha256": "a735048b4d8eb0941b7dc75fabb0570067a697bbe504963a2b7871069074117c"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-pdf-white.svg",
+      "bytes": 455,
+      "sha256": "35ffa560cff1b4722f31ea82d0fb78cf2eda6f41ff1684c313077ad64e3a0f60"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-pdf.svg",
+      "bytes": 455,
+      "sha256": "016e339eb80d6e715f768ab23a5f3bcf02017cded3fa4b2ba8f4d9e96986fbcd"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-presentation-white.svg",
+      "bytes": 221,
+      "sha256": "8eb14bc21a02ada7cda4302199cdcba473ed6c3ca2216a58df09fa1bd76cb30d"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-presentation.svg",
+      "bytes": 221,
+      "sha256": "b9e27e8536174f90a8a6b49d99f2e853f7335a6367566d72c4630c861933901c"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-spreadsheet-white.svg",
+      "bytes": 317,
+      "sha256": "ae9fed50e25aff4c7f7d7e32d979e41eaf08676109a434c3878d7d6ec3191564"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/img/header/icon-spreadsheet.svg",
+      "bytes": 317,
+      "sha256": "5a2b526da425f4384eb3d37ccb0a41cbed31a4702845ddd642db0edeec97b3da"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/mobile-overrides.less",
+      "bytes": 147,
+      "sha256": "78c2f9439d90ae6fd79f7246a4586b2c0ef6f19d0596ce9621c242a9725b2270"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/overrides/about.less",
+      "bytes": 371,
+      "sha256": "ce871a1c86f05b1b82cd0f1b2bb32559f603d771cbd5cd694d91160165eb68a9"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/overrides/header.less",
+      "bytes": 409,
+      "sha256": "0aa26ea60cf5f84a99c239203edc0faa81c81580628e7204fe6c9ae2e9f6ed8a"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/overrides/mobile-overrides.less",
+      "bytes": 533,
+      "sha256": "0c5454e7c75ab7d897eaf80d59bc3ecbf377fde5819cdfeedb0c137c232d91e4"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/overrides.less",
+      "bytes": 691,
+      "sha256": "0c2e61d77872ef6d47150054afc34a9a45af1daf42219c771c15e1f81132f685"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/assets/less/theme.less",
+      "bytes": 1617,
+      "sha256": "e5ca0743af047e60b7949348a2b517dffb53c6ab2f477dffc2159e9a99db6ea6"
+    },
+    {
+      "path": "deploy/euro-office/theme/soanvanban/meta/config.json",
+      "bytes": 783,
+      "sha256": "1ddda06f04e97a0b1240939182abfd7394f98cfc34ba6549faf10c5ab88175f2"
+    },
+    {
+      "path": "deploy/euro-office/verify-background-only.mjs",
+      "bytes": 1236,
+      "sha256": "dad558e7de341ab770f8e15355f06f25819a203ebfbf7af36284ef7013fe6caf"
+    },
+    {
+      "path": "deploy/euro-office/verify-locales.mjs",
+      "bytes": 890,
+      "sha256": "1269173405b54976c86ac181d5a41d741b1155b7b3f4ff60af5fbd2d563af333"
+    },
+    {
+      "path": "docs/CODE-SEPARATION.md",
+      "bytes": 1442,
+      "sha256": "b8bcda038e24ea724512fa978d288a88acdef59caf173d349b7d1c74d8d04315"
+    },
+    {
+      "path": "docs/EDITOR-FONT-INVENTORY.json",
+      "bytes": 309006,
+      "sha256": "c8b5374ff63174b24865ecc065897835916a84092102db63d0067701f3cbaae1"
+    },
+    {
+      "path": "docs/EDITOR-INTERFACE.md",
+      "bytes": 3523,
+      "sha256": "bdd2b58a5a2c55201cc89551a38d70cfce65448897f6d615f3e1812a15c3e605"
+    },
+    {
+      "path": "docs/EDITOR-SOURCE-PLAN.json",
+      "bytes": 6771,
+      "sha256": "f2517c0855f61733fcb82cf535d0f9cca06aa06b0ecb1d8998a8db7582e70129"
+    },
+    {
+      "path": "docs/EDITOR-UPSTREAM-SOURCES.json",
+      "bytes": 20671,
+      "sha256": "50515d6930a41e824e03f1648babbeab468b35e55d98152e47705bbd932b3e86"
+    },
+    {
+      "path": "docs/PUBLICATION-REVIEW.md",
+      "bytes": 3194,
+      "sha256": "822ee316673280afb482bb34e0ff9e71373484e399ab5622893f2a1ec6e26cfa"
+    },
+    {
+      "path": "scripts/editor-source-fetch.py",
+      "bytes": 2733,
+      "sha256": "63e5aa9dd13b543c2b36969bdc395734ee991df51eb777577572a8dfdee94993"
+    },
+    {
+      "path": "scripts/editor-source-plan.mjs",
+      "bytes": 2989,
+      "sha256": "5958f00f1503fe7599e09b1239961e5ec7664cd13d8a3677d99afe33b186cabb"
+    },
+    {
+      "path": "scripts/filter-editor-archives.py",
+      "bytes": 4670,
+      "sha256": "d30614f3c4f367ec999ddf450940fbf1454bc53781b84aee9b504bd68a7fbc20"
+    }
+  ]
+}

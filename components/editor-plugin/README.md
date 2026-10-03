@@ -1,0 +1,9 @@
+# Standalone Soạn Văn Bản editor plugin
+
+This package runs without the application's dependencies or source. Node 24.9.0 is the qualified runtime. Run `npm test`, then `APP_ORIGIN=http://localhost:3100 EDITOR_PUBLIC_ORIGIN=http://localhost:8080 npm start`. It binds to 127.0.0.1:3102 by default; Docker uses its private network. It requires no dependency install or lockfile because it has no npm dependencies. `docker build -t soanvanban-editor-plugin:local .` uses only the allowlisted Docker context. The base runtime tag must be resolved to a reviewed immutable digest before a reproducible release.
+
+Configure only `HOST`, `PORT`, `APP_ORIGIN`, and `EDITOR_PUBLIC_ORIGIN`. Do not provide application `.env`, session/editor JWTs, AI/mail keys, database mounts or user documents. The app forwards public `/plugin/*` assets to this service over HTTP, preserving the browser's application origin. Direct use from a separate browser origin requires an intentional protocol change and fresh origin/security tests.
+
+`assets/sdk.js` is the previously copied Ascensio plugin SDK, preserved byte for byte, including its AGPL and additional notice headers. `bridge.js`, config, HTML, bootstrap guard and asset server are part of the proposed covered editor/plugin package; no ownership or license reclassification is made. The copied SDK has a SHA-256 byte match against the official distributed artifact, recorded with all 11 immutable native component pins in `PROVENANCE.json`. Its exact editable client source is now supplied in `preferred-sdk/` at the immutable official website commit; a pinned local rebuild succeeds, although the vendor's historical minification recipe is not recorded. See [the interface](../../docs/EDITOR-INTERFACE.md) and [publication plan](../../docs/CODE-SEPARATION.md).
+
+This preparation does not update the live editor, source archives or GitHub. Existing source offers must remain accessible until an authorized, reviewed replacement is ready.
