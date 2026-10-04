@@ -27,7 +27,21 @@
     )
       return;
     const { requestId, action, text, expected } = event.data;
-    if (action === "selection")
+    if (action === "connection")
+      // Read-only adapter for the pinned 9.3.4 SDK. This observes its native
+      // reconnect state; it never calls socket/connect/disconnect or refresh.
+      // Unknown versions fail closed instead of treating a responsive frame
+      // (or an application heartbeat) as an authorized editing connection.
+      window.Asc.plugin.executeMethod("SVBConnectionStatus", [], (result) =>
+        reply(requestId, result),
+      );
+    else if (action === "snapshot")
+      window.Asc.plugin.executeMethod("GetFileToDownload", ["docx"], (url) =>
+        typeof url === "string" && url !== "error"
+          ? reply(requestId, url)
+          : reply(requestId, null, "Snapshot export failed"),
+      );
+    else if (action === "selection")
       window.Asc.plugin.executeMethod(
         "GetSelectedText",
         [selectionOptions],

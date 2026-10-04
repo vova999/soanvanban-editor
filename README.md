@@ -2,7 +2,7 @@
 
 This repository publishes the reviewed editor/plugin source independently of the private application history. It contains the standalone plugin service and messaging bridge, original distributed SDK with its exact editable upstream source and notices, editor theme/patches/build tools, mobile dependency lock, UniKey mapping source, and provenance/font metadata. Application server/web code, credentials, documents, databases, font files and compiled binaries are excluded.
 
-The versioned source archives are in [the source release](https://github.com/vova999/soanvanban-editor/releases/tag/editor-source-2026-10-03.1). `RELEASE-SOURCES.json`, `SHA256SUMS` and the per-archive exclusion reports identify exact published bytes and original immutable upstream pins. These are **filtered text-source snapshots**, not unmodified upstream archives or a claim of legally cleared, complete Corresponding Source. Nontext assets, fonts, executables/libraries, nested binary containers and credential-pattern fixtures are omitted. Original copyright/license notices are retained. The pinned upstream URLs identify the omitted assets; obtain them only under their applicable rights before attempting a full build.
+The versioned source archives are in [the source release](https://github.com/vova999/soanvanban-editor/releases/tag/editor-source-2026-10-04.1). `RELEASE-SOURCES.json`, `SHA256SUMS` and the per-archive exclusion reports identify exact published bytes and original immutable upstream pins. These are **filtered text-source snapshots**, not unmodified upstream archives or a claim of legally cleared, complete Corresponding Source. Nontext assets, fonts, executables/libraries, nested binary containers and credential-pattern fixtures are omitted. Original copyright/license notices are retained. The pinned upstream URLs identify the omitted assets; obtain them only under their applicable rights before attempting a full build.
 
 ## Plugin service
 
@@ -20,7 +20,11 @@ The exact editable client SDK and a pinned source-build recipe are under `compon
 
 See [native build instructions](deploy/euro-office/README.md), [upstream inventory](docs/EDITOR-UPSTREAM-SOURCES.json) and [publication scope](docs/PUBLICATION-REVIEW.md). The 14 pinned component/release/submodule snapshots and the additional customized live-7 web-apps snapshot are separate release assets. Their original binary/font/nontext contents were not rehosted. The filters mean the release archives alone cannot reproduce a complete upstream image; build/install scripts and dependency locks are supplied, but omitted inputs must be obtained separately from their exact upstream versions with the appropriate rights.
 
-The live editor's `svb.7` theme/background-plugin modification is distinct from the prepared future branding `svb.8` overlay. Version 8 has not been image-qualified. No application, editor, container image or service endpoint was deployed or changed by this source publication.
+The approved Mac deployment candidate uses the qualified `svb.8` branding build with the resume overlay described below. The retained customized live-7 source archive is historical and is not presented as containing the later overlay. This source publication contains no container images and does not itself perform deployment.
+
+## Resume overlay (2026-10-04)
+
+The plugin bridge now exposes the native read-only `SVBConnectionStatus` observer. `deploy/euro-office/connection-status.js` and `install-resume-observer.py` install it in both desktop and mobile editor pages without replacing native SDK bundles. Native participant-disconnect assembly grace is 90 seconds, paired with the application's existing 90-second run lease and durable callback/fencing behavior. The assembly setting does not change authentication, JWT expiry, role checks or native retry limits. See [overlay instructions](docs/RESUME-OVERLAY.md).
 
 ## Licenses and limits
 

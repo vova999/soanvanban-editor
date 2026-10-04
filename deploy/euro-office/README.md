@@ -1,6 +1,6 @@
 # Soạn Văn Bản editor customization
 
-This directory keeps the small, reviewable customization inputs for the Mac's qualified editor. It contains no upstream checkout, built bundles, document data, credentials, font binaries or source archive. Committing it privately does not publish an editor release or change the live service.
+This directory contains the reviewed preferred customization inputs for the Mac editor, including its qualified branding and resume overlay. It contains no upstream checkout, built bundles, document data, credentials or font binaries.
 
 The pinned base is `ghcr.io/euro-office/documentserver:v9.3.4-hotfix.1@sha256:a9e94372e01084b478365b291857f7ded2945d572776f0886dc0d61bd156fad1` (qualified ARM64 release). Its web-apps component is `b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6`. Obtain that exact preferred source from [Euro-Office web-apps](https://github.com/Euro-Office/web-apps/tree/b8eb618b91d682bb7bc3d55b1830c897ebc7e8d6), keeping the original notices. Other component pins are in the [release tree](https://github.com/Euro-Office/DocumentServer/tree/v9.3.4-hotfix.1).
 
@@ -16,8 +16,10 @@ The theme promotes Soạn Văn Bản in title, header, loader and service publis
 
 `Dockerfile` describes the custom frontend layer on the pinned image. Reproducing the earlier font-preservation layer also needs a locally supplied `preserved-fonts.tar`; it is ignored and must not be committed. Preserve filename case and review the font rights independently. Building or switching a live image needs separate release qualification and authorization.
 
-## Publication boundary
+## Resume overlay and publication boundary
 
-Keep `LICENSE`, `ATTRIBUTION`, original source notices and browser legal/source links. A private repository does not satisfy a public user's source offer by itself. The live theme and background-plugin fix are editor modifications; any future editor release must have an appropriate corresponding-source offer for its actual version. The current public editor archive lacks the live background-plugin fix. No archive is included or published by this commit.
+The Dockerfile copies `connection-status.js` and runs `install-resume-observer.py` after installing the built web-apps tree. The installer adds the observer to both main/mobile HTML and sets `services.CoAuthoring.server.savetimeoutdelay` to 90000 milliseconds. Native SDK bundles remain unchanged. The read-only plugin method `SVBConnectionStatus` reports the native connection state; it does not initiate disconnect, reconnect, refresh or document commands.
 
-The application's existing AGPL declaration remains unchanged. Ownership and copied components must be considered separately before asserting that future independently owned wrapper code must be published. Existing recipients retain their licenses. See [the branding checkpoint](../../docs/BRANDING-CLEANUP.md).
+Deploy this overlay with the matching plugin bridge and application integration that persists signed final saves without prematurely revoking a still-valid run lease. Explicit close, authorization, revision/epoch fencing and expiry must remain enforced. Installing the grace alone does not resolve the application-side callback issue. JWT/token expiry, roles and existing negotiated native retries are unchanged.
+
+Retain LICENSE, ATTRIBUTION, all applicable original notices and matching public preferred-source links. Published upstream snapshots remain filtered text-source snapshots; exact upstream URLs identify omitted fonts/binary inputs that must be acquired under their applicable rights. The legacy live-7 archive is historical; these current files supply the later branding/resume overlay. Source publication does not establish that a separately private wrapper is outside any covered combined work or certify complete legal scope.

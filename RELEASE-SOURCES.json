@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "releaseTag": "editor-source-2026-10-03.1",
+  "releaseTag": "editor-source-2026-10-04.1",
   "repository": "vova999/soanvanban-editor",
   "archivePolicy": "Text source/build files and notices only; no font/compiled/nontext/packed payloads or credential-pattern fixtures. Original pinned upstream links remain available for separate licensed acquisition.",
   "archives": [
@@ -347,5 +347,7 @@
   },
   "completeCorrespondingSource": false,
   "byteIdenticalImageRebuildVerified": false,
-  "deploymentAuthorized": false
+  "deploymentAuthorized": false,
+  "previousReleaseTag": "editor-source-2026-10-03.1",
+  "currentOverlay": "Current preferred editor/plugin resume and branding inputs are in the matching repository commit and editor-plugin-overlay-source.tar.gz. Unchanged upstream/historical archives retain their prior immutable release URLs and hashes."
 }

@@ -1,6 +1,6 @@
 {
   "sourcePublicationAuthorized": true,
-  "deploymentAuthorized": false,
+  "deploymentAuthorized": true,
   "privateApplicationHistoryIncluded": false,
   "fontBinariesIncluded": false,
   "completeCorrespondingSource": false,
@@ -22,13 +22,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 3949,
-      "sha256": "d351b9d09dc4dd87cb49334adf51c85cd809c8cd4ac7b0bb288c070e78df4bb5"
+      "bytes": 4590,
+      "sha256": "03d5bcbd06e1457f0f00aef034bdbeb6b48c1a80b5ee6f5ccf34fc051c8e7978"
     },
     {
       "path": "RELEASE-SOURCES.json",
-      "bytes": 20671,
-      "sha256": "50515d6930a41e824e03f1648babbeab468b35e55d98152e47705bbd932b3e86"
+      "bytes": 20979,
+      "sha256": "9421f7ce8dd467cb44ed3adeb294ff780046207bb839a7a80ec1d67ff041684f"
     },
     {
       "path": "SHA256SUMS",
@@ -62,8 +62,8 @@
     },
     {
       "path": "components/editor-plugin/assets/bridge.js",
-      "bytes": 3189,
-      "sha256": "e778c6650871b211e343204167187171be6ae7e6f5e2cac6d9405225987fa888"
+      "bytes": 3927,
+      "sha256": "ff49edea966dbf5b29cfc4c170d7398b87fedb9bf7f5d0f3f870c4252f247bfe"
     },
     {
       "path": "components/editor-plugin/assets/config.json",
@@ -121,6 +121,11 @@
       "sha256": "9038076982f475da6932bb00d6f922b3ec6dab00a9df17cc061893c627b24a98"
     },
     {
+      "path": "components/editor-plugin/test/connection.test.js",
+      "bytes": 2824,
+      "sha256": "3d5f73f959141df7cc99fe1313ae201a6c2f385c0e1fea24a29e538ba19a0674"
+    },
+    {
       "path": "components/editor-plugin/test/server.test.js",
       "bytes": 3581,
       "sha256": "0ab57fe9aad8b6da460cd8646b63d6fb88ab7ace8e225b6ab889bef68bcbf2b3"
@@ -162,8 +167,8 @@
     },
     {
       "path": "deploy/euro-office/Dockerfile",
-      "bytes": 1179,
-      "sha256": "f6122635adeed4f6d18fcfda74e817aa98c7851c1a335ff5515400d6751c4ae9"
+      "bytes": 1609,
+      "sha256": "e019791904572be0e30d4e3f122338682990fbf6d342051e5e6e9200b0f40d33"
     },
     {
       "path": "deploy/euro-office/LICENSE",
@@ -172,8 +177,8 @@
     },
     {
       "path": "deploy/euro-office/README.md",
-      "bytes": 4076,
-      "sha256": "a4a763ea45c58592524d98956f4c11334942d81fbea22062141fa8e36e66952d"
+      "bytes": 4668,
+      "sha256": "9ce521ade555ec88c071cfe6129b875701a0606c263bbb0d2068d98fe06ccd5e"
     },
     {
       "path": "deploy/euro-office/background-plugin.patch",
@@ -184,6 +189,16 @@
       "path": "deploy/euro-office/build-theme.mjs",
       "bytes": 2232,
       "sha256": "7d12c8f4560532176a64c4e11f4166685047e662b66852531f339485bab3fb4e"
+    },
+    {
+      "path": "deploy/euro-office/connection-status.js",
+      "bytes": 1742,
+      "sha256": "4f3adf0a28898fe8227c0bc6a91c095210004bb4cbe499f83a7c156919a0e798"
+    },
+    {
+      "path": "deploy/euro-office/install-resume-observer.py",
+      "bytes": 885,
+      "sha256": "a071f1e72e455fc33907cf301d54f75926ac3dbec21ead6bbbcd9a6108e10146"
     },
     {
       "path": "deploy/euro-office/mobile-package-lock.json",
@@ -356,6 +371,11 @@
       "sha256": "822ee316673280afb482bb34e0ff9e71373484e399ab5622893f2a1ec6e26cfa"
     },
     {
+      "path": "docs/RESUME-OVERLAY.md",
+      "bytes": 1724,
+      "sha256": "ff6852da81f5d78404096fe39c006bafa662657c576fe1a49fd77cd053a94ab0"
+    },
+    {
       "path": "scripts/editor-source-fetch.py",
       "bytes": 2733,
       "sha256": "63e5aa9dd13b543c2b36969bdc395734ee991df51eb777577572a8dfdee94993"
@@ -370,5 +390,6 @@
       "bytes": 4670,
       "sha256": "d30614f3c4f367ec999ddf450940fbf1454bc53781b84aee9b504bd68a7fbc20"
     }
-  ]
+  ],
+  "releaseTag": "editor-source-2026-10-04.1"
 }

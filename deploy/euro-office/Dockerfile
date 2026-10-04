@@ -3,6 +3,11 @@ FROM ghcr.io/euro-office/documentserver:v9.3.4-hotfix.1@sha256:a9e94372e01084b47
 # Supported theme build from the exact release's web-apps component.
 RUN rm -rf /var/www/euro-office/documentserver/web-apps
 COPY built/web-apps/ /var/www/euro-office/documentserver/web-apps/
+# Read-only native observer and a 90-second assembly grace matching the existing
+# application lease. Wrapper callback fencing is required alongside this overlay.
+COPY connection-status.js /var/www/euro-office/documentserver/web-apps/apps/documenteditor/connection-status-20261003.js
+COPY install-resume-observer.py /tmp/install-resume-observer.py
+RUN python3 /tmp/install-resume-observer.py && rm /tmp/install-resume-observer.py
 COPY preserved-fonts.tar /tmp/preserved-fonts.tar
 RUN tar -xf /tmp/preserved-fonts.tar -C /usr/share/fonts/truetype && rm /tmp/preserved-fonts.tar && fc-cache -f && /usr/bin/documentserver-generate-allfonts.sh
 RUN hash=$(md5sum /var/www/euro-office/documentserver/web-apps/apps/documenteditor/main/app.js | cut -d' ' -f1) && printf 'set $cache_tag "%s";\n' "$hash" > /etc/nginx/includes/ds-cache.conf
